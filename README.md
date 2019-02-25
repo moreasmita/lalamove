@@ -1,6 +1,7 @@
 # Data Engineer Assignment - Lalamove
 
-Problem statement
+Problem statement 
+
 As a logistics platform that matches users and drivers, we would like to know how many drivers are online, in order to determine our current supply. Online drivers will send a ping at regular intervals, which we record in the database(we can assume drivers are offline if they have not send us a ping). Our first use case is to have a streaming application, which counts the unique number of online drivers every minute.
 
 Data:

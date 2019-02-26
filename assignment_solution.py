@@ -13,8 +13,7 @@ if __name__ == "__main__":
 
     spark = SparkSession.builder.appName("test").getOrCreate()
 
-    OnlineFeedTopic = "customerlogs"
-    #OnlineFeedTopic = "DriverDataLogs"
+    OnlineFeedTopic = "DriverDataLogs"
     KafkaServer = "35.184.206.128:9092"
     KafkaOutputTopic = "OutputDataLog"
     CheckPointLocation = "/tmp/asmita"

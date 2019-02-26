@@ -4,7 +4,7 @@ from pykafka import KafkaClient
 
 DataFilePath = "data.json"
 KafkaHost = "35.184.206.128:9092"
-TopicName = "customerlogs"
+TopicName = "DriverDataLogs"
 
 client = KafkaClient(hosts=KafkaHost)
 
